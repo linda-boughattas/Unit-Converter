@@ -1,0 +1,32 @@
+:root{
+    --dark-green:#053d2e;
+    --green:#059669;
+    --ligh-green:#6EE7B7;
+    --lightMode-bg-gray:#F4F4F4;
+    --lightMode-bg-white:#ffff;
+    --darkMode-bg-gray:#273549;
+    --darkMode-bg-darkBlue:#1F2937;
+}
+
+h1{
+    font-family: Inter;
+    color: white;
+    font-size: 28px;
+    font-weight: 800px;
+    margin-top: 40px;
+}
+
+h3{
+    font-family: Inter;
+    color: var(--dark-green);
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 25px;
+}
+p{
+    font-size:16px;
+    font-family:Inter;
+    margin-top:0;
+    margin-bottom: 35px;
+    line-height: 0;
+}

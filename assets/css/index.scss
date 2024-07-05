@@ -70,11 +70,8 @@ body{
             width: 90%;
             background-color:var(--lightMode-bg-white);
             margin: 10px 0;
-
-            &__output{
-                display: flex;
-                flex-direction: row;
-            }
+            overflow-x: scroll;
+            white-space: nowrap; /* Ensure content does not wrap */
         }
     }
 }
